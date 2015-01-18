@@ -1,6 +1,6 @@
 {
   "name": "merged-pooler",
-  "version": "0.1.12",
+  "version": "0.1.14",
   "description": "High performance Stratum poolserver in Node.js for merged mining",
   "keywords": [
     "stratum",
@@ -32,7 +32,7 @@
     "url": "https://github.com/sigwo/node-merged-pool.git"
   },
   "dependencies": {
-    "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
+    "multi-hashing": "git://github.com/sigwo/node-multi-hashing.git",
     "bignum": "*",
     "base58-native": "*",
     "async": "*"
