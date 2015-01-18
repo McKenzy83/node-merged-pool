@@ -12,7 +12,7 @@ Frontend and payment enhancements will be a separate repo. (Insert repo URL when
 [![Build Status](https://travis-ci.org/sigwo/node-merged-pool.png?branch=master)](https://travis-ci.org/sigwo/node-merged-pool)
 
 #### Why
-The software that I forked was a wonderful beginning that never cvame to fruition. I hope to bring Node stratum into the
+The software that I forked was a wonderful beginning that never came to fruition. I hope to bring Node stratum into the
 mainstream of merged mining.
 
 Features
