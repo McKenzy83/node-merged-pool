@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sigwo/node-merged-pool.png?branch=master)](https://travis-ci.org/sigwo/node-merged-pool)
+
 High performance Stratum poolserver in Node.js. One instance of this software can startup and manage multiple coin
 pools, each with their own daemon and stratum ports :)
 
@@ -6,10 +8,9 @@ I am trying to make this useable software. On my list of up-front todos:
 
 * Multiple PoWAUX coins on each main chain
 * Profit Switching
+* Built-in stratum redundancy
 
 Frontend and payment enhancements will be a separate repo. (Insert repo URL when created)
-
-[![Build Status](https://travis-ci.org/sigwo/node-merged-pool.png?branch=master)](https://travis-ci.org/sigwo/node-merged-pool)
 
 #### Why
 The software that I forked was a wonderful beginning that never came to fruition. I hope to bring Node stratum into the
