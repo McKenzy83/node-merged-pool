@@ -73,6 +73,11 @@ git clone https://github.com/sigwo/node-merged-pool
 cd node-merged-pool
 npm update
 ```
+or
+
+```bash
+npm install merged-pooler
+```
 
 Note to self: Add actual instructions here.
 

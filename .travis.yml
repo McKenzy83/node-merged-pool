@@ -5,4 +5,4 @@ deploy:
   provider: npm
   email: steven@bemining.net
 api_key:
-  21b43653e194a3f3f706019f9f01454cb582452e
+    secure:  

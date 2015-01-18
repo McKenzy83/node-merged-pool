@@ -1,41 +1,47 @@
 {
-    "name": "merged-pool",
-    "version": "0.1.10",
-    "description": "High performance Stratum poolserver in Node.js for merged mining",
-    "keywords": [
-        "stratum",
-	    "merged",
-        "mining",
-        "pool",
-        "server",
-        "poolserver",
-        "bitcoin",
-        "litecoin",
-        "scrypt"
-    ],
-    "homepage": "https://github.com/KillerByte/node-merged-pool",
-    "bugs": {
-        "url": "https://github.com/KillerByte/node-merged-pool/issues"
-    },
-    "license": "GPL-2.0",
-    "author": "Daniel Beal",
-    "contributors": [
-	    "zone117x",
-        "vekexasia",
-        "TheSeven"
-    ],
-    "main": "lib/index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/KillerByte/node-merged-pool.git"
-    },
-    "dependencies": {
-        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
-        "bignum": "*",
-        "base58-native": "*",
-        "async": "*"
-    },
-    "engines": {
-        "node": ">=0.10"
-    }
+  "name": "merged-pooler",
+  "version": "0.1.11",
+  "description": "High performance Stratum poolserver in Node.js for merged mining",
+  "keywords": [
+    "stratum",
+    "merged",
+    "mining",
+    "pool",
+    "server",
+    "poolserver",
+    "bitcoin",
+    "litecoin",
+    "dogecoin",
+    "scrypt"
+  ],
+  "homepage": "https://github.com/sigwo/node-merged-pool",
+  "bugs": {
+    "url": "https://github.com/sigwo/node-merged-pool/issues"
+  },
+  "license": "GPL-2.0",
+  "author": "Daniel Beal",
+  "contributors": [
+    "zone117x",
+    "vekexasia",
+    "TheSeven",
+    "KillerByte"
+  ],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sigwo/node-merged-pool.git"
+  },
+  "dependencies": {
+    "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
+    "bignum": "*",
+    "base58-native": "*",
+    "async": "*"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
