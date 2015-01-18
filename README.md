@@ -105,8 +105,8 @@ Donations
 Below is my donation address. The original dev addresses are listed because I felt scammy if I removed them. They no longer are supporting the current development
 effort. Please donate to:
 
-* BTC: '1BRUcdAdjdQoAgUwcN7nbNDzqhL92ub3xE'
-* Cryptsy Trade Key: '197f17af3751709b2c7f076a2d3393e064022e91'
+* BTC: `1BRUcdAdjdQoAgUwcN7nbNDzqhL92ub3xE`
+* Cryptsy Trade Key: `197f17af3751709b2c7f076a2d3393e064022e91`
 
 
 Original author (zone117x):
