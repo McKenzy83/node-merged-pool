@@ -85,9 +85,6 @@ Note to self: Add actual instructions here.
 
 #### Module usage
 
-<<<<<<< HEAD
-Please see the included example.js file for more information. This section will be
-expanded soon.
 =======
 Create the configuration for your coin:
 
@@ -355,8 +352,6 @@ Start pool
 pool.start();
 ```
 
->>>>>>> b900b19c2bc03482cc6589f19eaa22cbd62b648c
-
 Credits
 -------
 * [zone117x](//github.com/zone117x) - Head developer of the original stratum mining pool for node.js
@@ -366,7 +361,7 @@ Credits
 * [pronooob](https://dogehouse.org) - knowledgeable & helpful
 * [Slush0](//github.com/slush0/stratum-mining) - stratum protocol, documentation and original python code
 * [viperaus](//github.com/viperaus/stratum-mining) - scrypt adaptions to python code
-* [ahmedbodi](//github.com/ahmedbodi/stratum-mining) - more algo adaptions to python code
+* [ahmedbodi](//github.com/ahmedbodi/stratum-mining) - more algo adaptions to python code and unomp dev
 * [steveshit](//github.com/steveshit) - ported X11 hashing algo from python to node module
 * [KillerByte](//github.com/KillerByte) - for beginning this creation
 
