@@ -1,20 +1,19 @@
 High performance Stratum poolserver in Node.js. One instance of this software can startup and manage multiple coin
 pools, each with their own daemon and stratum ports :)
 
-This software has been modefied for merged mining. It is still in development.
-
 #### Notice
-This is a module for Node.js that will do nothing on its own. Unless you're a Node.js developer who would like to
-handle stratum authentication and raw share data then this module will not be of use to you.
+I am trying to make this useable software. On my list of up-front todos:
 
-[![Build Status](https://travis-ci.org/KillerByte/node-stratum-pool.png?branch=master)](https://travis-ci.org/KillerByte/node-stratum-pool)
+* Multiple PoWAUX coins on each main chain
+* Profit Switching
+
+Frontend and payment enhancements will be a separate repo. (Insert repo URL when created)
+
+[![Build Status](https://travis-ci.org/sigwo/node-merged-pool.png?branch=master)](https://travis-ci.org/sigwo/node-merged-pool)
 
 #### Why
-This server was built to be more efficient and easier to setup, maintain and scale than existing stratum poolservers
-which are written in python. Compared to the spaghetti state of the latest
-[stratum-mining python server](https://github.com/Crypto-Expert/stratum-mining/), this software should also have a
-lower barrier to entry for other developers to fork and add features or fix bugs.
-
+The software that I forked was a wonderful beginning that never cvame to fruition. I hope to bring Node stratum into the
+mainstream of merged mining.
 
 Features
 ----------------------------------
@@ -60,9 +59,9 @@ Not working currently:
 
 Requirements
 ------------
-* node v0.10+
-* coin daemon for primay and auxillery coins (preferably one with a relatively updated API and not some crapcoin :p)
-
+* Node v0.10+
+* Coin daemon for primay and auxillery coins (preferably one with a relatively updated API and not some crapcoin :p)
+* Patience :)
 
 Example Usage
 -------------
@@ -70,13 +69,16 @@ Example Usage
 #### Install as a node module by cloning repository
 
 ```bash
-git clone https://github.com/KillerByte/node-stratum-pool node_modules/stratum-pool
+git clone https://github.com/sigwo/node-merged-pool
+cd node-merged-pool
 npm update
 ```
 
+Note to self: Add actual instructions here.
+
 #### Module usage
 
-Please see the included example.js file for more information. This section should be
+Please see the included example.js file for more information. This section will be
 expanded soon.
 
 Credits
@@ -90,11 +92,18 @@ Credits
 * [viperaus](//github.com/viperaus/stratum-mining) - scrypt adaptions to python code
 * [ahmedbodi](//github.com/ahmedbodi/stratum-mining) - more algo adaptions to python code
 * [steveshit](//github.com/steveshit) - ported X11 hashing algo from python to node module
-
+* [KillerByte](//github.com/KillerByte) - for beginning this creation
 
 Donations
 ---------
-To support development of this project to the original author (zone117x), feel free to donate :)
+Below is my donation address. The original dev addresses are listed because I felt scammy if I removed them. They no longer are supporting the current development
+effort. Please donate to:
+
+* BTC: '1BRUcdAdjdQoAgUwcN7nbNDzqhL92ub3xE'
+* Cryptsy Trade Key: '197f17af3751709b2c7f076a2d3393e064022e91'
+
+
+Original author (zone117x):
 
 * BTC: `1KRotMnQpxu3sePQnsVLRy3EraRFYfJQFR`
 * LTC: `LKfavSDJmwiFdcgaP1bbu46hhyiWw5oFhE`
