@@ -190,15 +190,7 @@ var pool = Stratum.createPool({
     error: 'low share difficulty' //set if share is rejected for some reason
 */
 pool.on('share', function(isValidShare, isValidBlock, data){
-<<<<<<< HEAD
-    if (isValidShare)
-        console.log('Valid share submitted');
-    else if (data.blockHash)
-        console.log('Nu uh uh, not today! We thought a block was found but it was rejected by the daemon');
-    else
-        console.log('Try again! Invalid share submitted');
-=======
- 
+
     //maincoin
     var coin = myCoin.name;
     storeShare(isValidShare, isValidBlock, data, coin);
@@ -243,8 +235,6 @@ function storeShare(isValidShare, isValidBlock, data, coin) {
             logger.error(logSystem, logComponent, logSubCat, 'Error with share processor multi ' + JSON.stringify(err));
     });
     
->>>>>>> b900b19c2bc03482cc6589f19eaa22cbd62b648c
-
     console.log('share data: ' + JSON.stringify(data));
 }
 
