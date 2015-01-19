@@ -62,7 +62,7 @@ Not working currently:
 Requirements
 ------------
 * Node v0.10+
-* Coin daemon for primay and auxillery coins (preferably one with a relatively updated API and not some crapcoin :p)
+* Coin daemon for primary and auxillary coins
 * Patience :)
 
 Example Usage
@@ -73,15 +73,8 @@ Example Usage
 ```bash
 git clone https://github.com/sigwo/node-merged-pool
 cd node-merged-pool
-npm update
+npm install
 ```
-or
-
-```bash
-npm install merged-pooler
-```
-
-Note to self: Add actual instructions here.
 
 #### Module usage
 
