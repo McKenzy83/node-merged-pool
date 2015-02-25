@@ -73,12 +73,8 @@ Example Usage
 ```bash
 git clone https://github.com/sigwo/node-merged-pool
 sudo apt-get install build-essential libssl-dev
-curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
-source ~/.profile
-nvm install 0.10.25
-nvm use 0.10.25
 cd node-merged-pool
-npm install
+npm update
 ```
 
 #### Module usage
