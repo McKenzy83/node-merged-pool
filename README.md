@@ -10,7 +10,7 @@ I am trying to make this useable software. On my list of up-front todos:
 * Profit Switching
 * Built-in stratum redundancy
 
-Frontend and payment enhancements will be a separate repo. [Merged Pooler](//github.com/sigwo/node-merged-portal)
+Frontend and payment enhancements will be a separate repo. [Merged Pooler](//github.com/sigwo/unified-node-open-mining-portal)
 
 #### Why
 The software that I forked was a wonderful beginning that never came to fruition. I hope to bring Node stratum into the
