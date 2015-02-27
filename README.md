@@ -6,8 +6,8 @@ pools, each with their own daemon and stratum ports :)
 #### Notice
 I am trying to make this useable software. On my list of up-front todos:
 
-* Multiple PoWAUX coins on each main chain ([ahmedbodi](//github.com/ahmedbodi))
-* Profit Switching
+* Multiple PoWAUX coins on each main chain - Complete
+* Profit Switching 
 * Built-in stratum redundancy
 
 Frontend and payment enhancements will be a separate repo. [Merged Pooler](//github.com/sigwo/unified-node-open-mining-portal)
