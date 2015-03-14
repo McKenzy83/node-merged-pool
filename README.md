@@ -7,10 +7,10 @@ pools, each with their own daemon and stratum ports :)
 I am trying to make this useable software. On my list of up-front todos:
 
 * Multiple PoWAUX coins on each main chain - Complete
-* Profit Switching 
-* Built-in stratum redundancy
+* Profit Switching - Complete (UNOMP)
+* Built-in stratum redundancy 
 
-Frontend and payment enhancements will be a separate repo. [Merged Pooler](//github.com/sigwo/unified-node-open-mining-portal)
+Frontend and payment enhancements will be a separate repo. [UNOMP](//github.com/sigwo/unified-node-open-mining-portal)
 
 #### Why
 The software that I forked was a wonderful beginning that never came to fruition. I hope to bring Node stratum into the
