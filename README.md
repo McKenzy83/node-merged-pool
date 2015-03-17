@@ -61,7 +61,7 @@ Not working currently:
 
 Requirements
 ------------
-* Node v0.12 (For help, see https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
+* Node v0.10 (For help, see https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-an-ubuntu-14-04-server)
 * Coin daemon for primary and auxillary coins
 * Patience :)
 
