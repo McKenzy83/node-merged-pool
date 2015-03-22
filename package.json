@@ -1,10 +1,6 @@
 {
   "name": "merged-pooler",
-<<<<<<< HEAD
   "version": "0.0.1",
-=======
-  "version": "0.2.2",
->>>>>>> master
   "description": "High performance Stratum poolserver in Node.js for merged mining",
   "keywords": [
     "stratum",
